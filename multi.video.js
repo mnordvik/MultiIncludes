@@ -8,7 +8,7 @@ video.innerHTML = '<section class="toggle-block" ng-class="{active: !collapse.vi
             '</a>' +
             '<div class="slide" collapse="collapse.overview">' +
               '<div class="container">' +
-+ '<iframe src="http://www.visualtour.com/showvt.asp?t=2275330&prt=10003&sk=202" scrolling="auto"' +
+ '<iframe src="http://www.visualtour.com/showvt.asp?t=2275330&prt=10003&sk=202" scrolling="auto"' +
  'width="720" height="800" frameborder="1"></iframe>' +
  '</div></div></section>';
 /*var iframe = document.createElement("img");
@@ -16,5 +16,5 @@ iframe.setAttribute("src","http://www.visualtour.com/applets/flashviewer2/viewer
 iframe.setAttribute("scrolling","no");
 video.appendChild("iframe");*/
 
-carousel.parentNode.insertBefore(video, carousel.nextSibling);
+carousel.parentNode.parentNode.insertBefore(video, carousel.parentNode.nextSibling);
 
