@@ -1,4 +1,5 @@
-var carousel = document.getElementById("property-carousel");
+/*var carousel = document.getElementById("property-carousel");*/
+var carousel = document.getElementById("recommendationsInfoWindow");
 
 var video = document.createElement("div");
 
