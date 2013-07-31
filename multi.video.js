@@ -23,7 +23,7 @@ var videoLinks = {
 
 var carousel = document.getElementById("property-carousel");
 var video = document.createElement("div");
-alert(windo.locatio.path);
+alert(window.location.path);
 
 video.innerHTML = '<iframe src="http://www.visualtour.com/showvt.asp?t=2275330&prt=10003&sk=202" scrolling="auto"' +
  'width="720" height="450" frameborder="1"></iframe>';
