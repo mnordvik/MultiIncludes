@@ -1,6 +1,3 @@
-var carousel = document.getElementById("property-carousel");
-
-var video = document.createElement("div");
 //var video = document.createElement("section");
 //video.setAttribute("class","toggle-block");
 //video.setAttribute("ng-class","{active: !collapse.video}");
@@ -17,8 +14,13 @@ var video = document.createElement("div");
 '</div></div>';*/
 //'</div></div></section>';
 
+
+
+var carousel = document.getElementById("property-carousel");
+var video = document.createElement("div");
+
 video.innerHTML = '<iframe src="http://www.visualtour.com/showvt.asp?t=2275330&prt=10003&sk=202" scrolling="auto"' +
- 'width="720" height="550" frameborder="1"></iframe>';
+ 'width="720" height="450" frameborder="1"></iframe>';
 
 carousel.parentNode.insertBefore(video, carousel.nextSibling);
 
