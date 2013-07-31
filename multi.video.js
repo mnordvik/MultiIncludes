@@ -23,7 +23,7 @@ var videoLinks = {
 
 var carousel = document.getElementById("property-carousel");
 var video = document.createElement("div");
-alert(window.location.href);
+//alert(window.location.href);
 
 var pathArray = window.location.href.split('/');
 for (var i=0;i<pathArray.length;i++)
@@ -31,6 +31,7 @@ for (var i=0;i<pathArray.length;i++)
 alert('path obj'+i+':'+pathArray[i]);
 }
 
+alert('path obj'+i+':'+pathArray[i]);
 var propNamespace = videoLinks[pathArray[pathArray.length - 1]];
 
 alert('propNamespace = ' + propNamespace);
