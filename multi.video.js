@@ -28,11 +28,14 @@ var video = document.createElement("div");
 var pathArray = window.location.href.split('/');
 for (var i=0;i<pathArray.length;i++)
 { 
-alert('path obj'+i+':'+pathArray[i]);
+            alert('path obj'+i+':'+pathArray[i]);
 }
 
-alert('path obj'+i+':'+pathArray[i]);
-var propNamespace = videoLinks[pathArray[pathArray.length - 1]];
+var propNamespace;
+if(pathArray[pathArray.length - 1] != '')
+            propNamespace = videoLinks[pathArray[pathArray.length - 1]];
+else
+            propNamespace = videoLinks[pathArray[pathArray.length - 2]];
 
 alert('propNamespace = ' + propNamespace);
 
