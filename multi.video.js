@@ -14,10 +14,16 @@
 '</div></div>';*/
 //'</div></div></section>';
 
-
+var videoLinks = {
+    '23496-olde-meadowbrook-cir': 'http://www.visualtour.com/showvt.asp?t=1754762&prt=10003&sk=202',
+    '10140-bellavista-circle-1101': 'http://www.visualtour.com/showvt.asp?t=2231236&prt=10003&sk=202',
+    '27550-horne-ave-bonita-springs-fl': 'http://www.visualtour.com/showvt.asp?t=2648352&sk=202',
+    'villalagos-at-mediterra-single-family-pool-home': 'http://www.visualtour.com/showvt.asp?sk=13&t=2606270'
+};
 
 var carousel = document.getElementById("property-carousel");
 var video = document.createElement("div");
+alert(windo.locatio.path);
 
 video.innerHTML = '<iframe src="http://www.visualtour.com/showvt.asp?t=2275330&prt=10003&sk=202" scrolling="auto"' +
  'width="720" height="450" frameborder="1"></iframe>';
