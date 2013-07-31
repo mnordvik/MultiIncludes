@@ -23,9 +23,10 @@ var videoLinks = {
 
 var carousel = document.getElementById("property-carousel");
 var video = document.createElement("div");
-alert(window.location.pathname);
+alert(window.location.href);
 
 var pathArray = window.location.pathname.split('/');
+alert('last path obj = '+pathArray[pathArray.length - 1]);
 var propNamespace = videoLinks[pathArray[pathArray.length - 1]];
 
 alert('propNamespace = ' + propNamespace);
