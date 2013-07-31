@@ -26,7 +26,11 @@ var video = document.createElement("div");
 alert(window.location.href);
 
 var pathArray = window.location.href.split('/');
-alert('last path obj = '+pathArray[pathArray.length - 1]);
+for (var i=0;i<pathArray.length;i++)
+{ 
+alert('path obj'+i+':'+pathArray[i]);
+}
+
 var propNamespace = videoLinks[pathArray[pathArray.length - 1]];
 
 alert('propNamespace = ' + propNamespace);
