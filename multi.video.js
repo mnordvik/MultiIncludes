@@ -2,7 +2,7 @@
 
 var tagline = document.getElementById('tagline');
 alert("tagline: " + tagline.textContent);
-alert("price: " + tagline.children[1].nodeName);
+alert("price: " + tagline.firstElementChild.innerHTML);
 
 // INSERT VIDEO TOURS WHEN AVAILABLE
 
