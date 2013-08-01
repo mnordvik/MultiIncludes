@@ -7,14 +7,9 @@ var videoLinks = {
 
 var carousel = document.getElementById("property-carousel");
 var video = document.createElement("div");
-
 var pathArray = window.location.href.split('/');
-for (var i=0;i<pathArray.length;i++)
-{ 
-            alert('path obj'+i+':'+pathArray[i]);
-}
-
 var propNamespace;
+
 if(pathArray[pathArray.length - 1] != '')
             propNamespace = videoLinks[pathArray[pathArray.length - 1]];
 else
@@ -24,7 +19,7 @@ if(typeof propNamespace !== "undefined") {
             video.innerHTML = '<iframe src="http://www.visualtour.com/showvt.asp?t=2275330&prt=10003&sk=202" scrolling="auto"' +
                         'width="720" height="450" frameborder="1"></iframe>';
             carousel.parentNode.insertBefore(video, carousel.nextSibling);
-            alert('propNamespace = ' + propNamespace);
+            //alert('propNamespace = ' + propNamespace);
 }
 
 //var video = document.createElement("section");
