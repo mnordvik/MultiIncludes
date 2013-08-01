@@ -31,7 +31,8 @@ if(typeof propNamespace !== "undefined") {
 // FIX TAGLINE PRICE FORMATTING
 
 var tagline = document.getElementById('tagline');
-alert("tagline: " + tagline.innerHTML);
+alert("tagline: " + tagline.textContent);
+alert("price: " + tagline.firstChild.textContent);
 
 
 // IN CASE WE TRY TO MAKE ITS OWN SECTION
