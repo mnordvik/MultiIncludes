@@ -20,8 +20,7 @@ if(pathArray[pathArray.length - 1] != '')
 else
             propNamespace = videoLinks[pathArray[pathArray.length - 2]];
 
-if(typeof propNamespace !== "undefined")
-
+if(typeof propNamespace !== "undefined") {
             video.innerHTML = '<iframe src="http://www.visualtour.com/showvt.asp?t=2275330&prt=10003&sk=202" scrolling="auto"' +
                         'width="720" height="450" frameborder="1"></iframe>';
             carousel.parentNode.insertBefore(video, carousel.nextSibling);
