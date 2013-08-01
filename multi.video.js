@@ -2,7 +2,7 @@
 
 var tagline = document.getElementById('tagline');
 alert("tagline: " + tagline);
-if(tagline) {
+if(tagline != null) {
     var priceWhole = tagline.firstElementChild.innerHTML.split(".")[0];
     alert("priceWhole: " + priceWhole);
     tagline.firstElementChild.innerHTML = priceWhole;
