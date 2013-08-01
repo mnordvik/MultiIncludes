@@ -1,18 +1,36 @@
-/* var carousel = document.getElementById("property-carousel");
-var carouselParent = carousel.parentNode;
+// FIX TAGLINE PRICE FORMATTING
 
-var video = document.createElement("div");
+var tagline = document.getElementById('tagline');
+if(tagline != null) {
+    var priceWhole = tagline.firstElementChild.innerHTML.split(".")[0];
+    tagline.firstElementChild.innerHTML = priceWhole;
+}
 
-video.innerHTML = '<iframe id="ifrm" name="ifrm" src="http://www.visualtour.com/showvt.asp?t=1754762&prt=10003&sk=202" scrolling="auto"
- width="790"  height="1024" frameborder="3"><a href="http://www.visualtour.com/showvt.asp?t=1754762&prt=10003&sk=202" target="_blank">Click here for 360 tour</a></iframe>'
-carousel.parentNode.insertBefore(video, carousel.nextSibling); */
+// INSERT VIDEO TOURS WHEN AVAILABLE
+
+var videoLinks = {
+    'lil-ranch-cottage': 'http://www.youtube.com/embed/eJG7i2xzhtE?rel=0',
+    'robson-house': 'http://www.youtube.com/embed/g5TzvQ0R-Uw?rel=0',
+    'stone-mill-way': 'http://www.youtube.com/embed/N0KYx6dgo6s?rel=0'
+};
 
 var carousel = document.getElementById("property-carousel");
-
 var video = document.createElement("div");
+var pathArray = window.location.href.split('/');
+var propNamespace;
 
-video.innerHTML = '<iframe id="ifrm" name="ifrm" src="http://www.visualtour.com/showvt.asp?t=1754762&prt=10003&sk=202" scrolling="auto"
- width="790"  height="1024" frameborder="3"><a href="http://www.visualtour.com/showvt.asp?t=1754762&prt=10003&sk=202" target="_blank">Click here for 360 tour</a></iframe>';
+if(pathArray[pathArray.length - 1] != '')
+    propNamespace = videoLinks[pathArray[pathArray.length - 1]];
+else
+    propNamespace = videoLinks[pathArray[pathArray.length - 2]];
 
-carousel.parentNode.insertBefore(video, carousel.nextSibling);
-
+if(typeof propNamespace !== "undefined") {
+    var iFrame = document.createElement("iframe");
+    iFrame.setAttribute("src", propNamespace);
+    iFrame.setAttribute("allowfullscreen", "");
+    iFrame.setAttribute("width", "560");
+    iFrame.setAttribute("height", "315");
+    iFrame.setAttribute("frameborder", "1");
+    video.appendChild(iFrame);
+    carousel.parentNode.insertBefore(video, carousel.nextSibling);
+}
