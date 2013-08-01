@@ -1,3 +1,9 @@
+// FIX TAGLINE PRICE FORMATTING
+
+var tagline = document.getElementById('tagline');
+alert("tagline: " + tagline.textContent);
+alert("price: " + tagline.children[1].textContent);
+
 // INSERT VIDEO TOURS WHEN AVAILABLE
 
 var videoLinks = {
@@ -28,11 +34,6 @@ if(typeof propNamespace !== "undefined") {
             carousel.parentNode.insertBefore(video, carousel.nextSibling);
 }
 
-// FIX TAGLINE PRICE FORMATTING
-
-var tagline = document.getElementById('tagline');
-alert("tagline: " + tagline.textContent);
-alert("price: " + tagline.firstChild.textContent);
 
 
 // IN CASE WE TRY TO MAKE ITS OWN SECTION
