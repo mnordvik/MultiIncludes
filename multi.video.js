@@ -16,8 +16,15 @@ else
             propNamespace = videoLinks[pathArray[pathArray.length - 2]];
 
 if(typeof propNamespace !== "undefined") {
-            video.innerHTML = '<iframe src="http://www.visualtour.com/showvt.asp?t=2275330&prt=10003&sk=202" scrolling="auto"' +
-                        'width="720" height="450" frameborder="1"></iframe>';
+            var iFrame = document.createElement("iframe");
+            iFrame.setAttribute("src", propNamespace);
+            iFrame.setAttribute("scrolling", "auto");
+            iFrame.setAttribute("width", "720");
+            iFrame.setAttribute("height", "450");
+            iFrame.setAttribute("frameborder", "1");
+            video.appendChild(iFrame);
+            //video.innerHTML = '<iframe src="http://www.visualtour.com/showvt.asp?t=2275330&prt=10003&sk=202" scrolling="auto"' +
+            //            'width="720" height="450" frameborder="1"></iframe>';
             carousel.parentNode.insertBefore(video, carousel.nextSibling);
             //alert('propNamespace = ' + propNamespace);
 }
