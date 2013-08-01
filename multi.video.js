@@ -1,9 +1,12 @@
 // FIX TAGLINE PRICE FORMATTING
 
 var tagline = document.getElementById('tagline');
-var priceWhole = tagline.firstElementChild.innerHTML.split(".")[0];
-alert("priceWhole: " + priceWhole);
-tagline.firstElementChild.innerHTML = priceWhole;
+
+if(typeof tagline !== "undefined") {
+    var priceWhole = tagline.firstElementChild.innerHTML.split(".")[0];
+    alert("priceWhole: " + priceWhole);
+    tagline.firstElementChild.innerHTML = priceWhole;
+}
 
 // INSERT VIDEO TOURS WHEN AVAILABLE
 
@@ -20,19 +23,19 @@ var pathArray = window.location.href.split('/');
 var propNamespace;
 
 if(pathArray[pathArray.length - 1] != '')
-            propNamespace = videoLinks[pathArray[pathArray.length - 1]];
+    propNamespace = videoLinks[pathArray[pathArray.length - 1]];
 else
-            propNamespace = videoLinks[pathArray[pathArray.length - 2]];
+    propNamespace = videoLinks[pathArray[pathArray.length - 2]];
 
 if(typeof propNamespace !== "undefined") {
-            var iFrame = document.createElement("iframe");
-            iFrame.setAttribute("src", propNamespace);
-            iFrame.setAttribute("scrolling", "auto");
-            iFrame.setAttribute("width", "720");
-            iFrame.setAttribute("height", "450");
-            iFrame.setAttribute("frameborder", "1");
-            video.appendChild(iFrame);
-            carousel.parentNode.insertBefore(video, carousel.nextSibling);
+    var iFrame = document.createElement("iframe");
+    iFrame.setAttribute("src", propNamespace);
+    iFrame.setAttribute("scrolling", "auto");
+    iFrame.setAttribute("width", "720");
+    iFrame.setAttribute("height", "450");
+    iFrame.setAttribute("frameborder", "1");
+    video.appendChild(iFrame);
+    carousel.parentNode.insertBefore(video, carousel.nextSibling);
 }
 
 
