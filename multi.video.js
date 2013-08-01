@@ -1,3 +1,5 @@
+// INSERT VIDEO TOURS WHEN AVAILABLE
+
 var videoLinks = {
     '23496-olde-meadowbrook-cir': 'http://www.visualtour.com/showvt.asp?t=1754762&prt=10003&sk=202',
     '10140-bellavista-circle-1101': 'http://www.visualtour.com/showvt.asp?t=2231236&prt=10003&sk=202',
@@ -23,11 +25,16 @@ if(typeof propNamespace !== "undefined") {
             iFrame.setAttribute("height", "450");
             iFrame.setAttribute("frameborder", "1");
             video.appendChild(iFrame);
-            //video.innerHTML = '<iframe src="http://www.visualtour.com/showvt.asp?t=2275330&prt=10003&sk=202" scrolling="auto"' +
-            //            'width="720" height="450" frameborder="1"></iframe>';
             carousel.parentNode.insertBefore(video, carousel.nextSibling);
-            //alert('propNamespace = ' + propNamespace);
 }
+
+// FIX TAGLINE PRICE FORMATTING
+
+var tagline = document.getElementById('tagline');
+alert("tagline: " + tagline);
+
+
+// IN CASE WE TRY TO MAKE ITS OWN SECTION
 
 //var video = document.createElement("section");
 //video.setAttribute("class","toggle-block");
