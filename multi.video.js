@@ -1,8 +1,9 @@
 // FIX TAGLINE PRICE FORMATTING
 
 var tagline = document.getElementById('tagline');
-alert("tagline: " + tagline.textContent);
-alert("price: " + tagline.firstElementChild.innerHTML);
+var priceWhole = tagline.firstElementChild.innerHTML.split(".")[0];
+alert("priceWhole: " + priceWhole);
+tagline.firstElementChild.innerHTML = priceWhole;
 
 // INSERT VIDEO TOURS WHEN AVAILABLE
 
