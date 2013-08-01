@@ -16,6 +16,7 @@ var videoLinks = {
 
 var carousel = document.getElementById("property-carousel");
 var video = document.createElement("div");
+video.style.textAlign = "center";
 var pathArray = window.location.href.split('/');
 var propNamespace;
 
