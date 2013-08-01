@@ -1,7 +1,7 @@
 // FIX TAGLINE PRICE FORMATTING
 
 var tagline = document.getElementById('tagline');
-
+alert("tagline: " + tagline);
 if(typeof tagline !== "undefined") {
     var priceWhole = tagline.firstElementChild.innerHTML.split(".")[0];
     alert("priceWhole: " + priceWhole);
