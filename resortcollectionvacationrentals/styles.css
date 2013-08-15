@@ -36,7 +36,7 @@
 .open-close .slide a,
 .ui-datepicker td a:hover
 {
-	color: #FF8811;
+	color: rgb(239,144,33);
 }
 
 .local-section .recommendation-list a:hover:before,
@@ -54,7 +54,7 @@ input.submit.btn,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active
 {
-	background: #FF8811;
+	background: rgb(239,144,33);
 }
 
 .day-int a,
@@ -62,18 +62,18 @@ input.submit.btn,
 .day-int.last a,
 .day-int.single a
 {
-  background: #FF8811 !important;
+  background: rgb(239,144,33) !important;
 }
 
 .light-bg-trans,
 .local-guide .recomendations .tabs .recommendation-list .list-link:hover:before
 {
-	background-color: #FF8811;
+	background-color: rgb(239,144,33);
 }
 
 .list>li:hover
 {
-	border: solid #FF8811;
+	border: solid rgb(239,144,33);
 }
 
 .select-area:hover,
@@ -88,20 +88,20 @@ input.submit.btn,
 .estimate-form .text-field.parent-active,
 .estimate-form .parent-active input[type="text"]
 {
-	border:1px solid #FF8811;
+	border:1px solid rgb(239,144,33);
 }
 
 .ui-widget-header .ui-state-highlight
 {
-  border: 1px solid #FF8811 !important;
+  border: 1px solid rgb(239,144,33) !important;
 }
 
 .landing .search-header .search-container .search-lead
 {
-	border-top: 3px solid #FF8811;
+	border-top: 3px solid rgb(239,144,33);
 }
 
 .landing-text .list-small .property-small a:hover
 {
-	border-right: 3px solid #FF8811;
+	border-right: 3px solid rgb(239,144,33);
 }
