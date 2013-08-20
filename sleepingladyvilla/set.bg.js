@@ -3,7 +3,7 @@
 
 // <![CDATA[
     $(document).ready(function() {
-        $.backstretch("//d1nk2hj61npenc.cloudfront.net/bg/myrtle_dawn_1500x720.jpg");
+        $.backstretch("https://s3.amazonaws.com/jomumist-myvr-prod-photos/a052ea48656d2744/13157b13e13aee9d/9186A6B4E1.jpg");
         $('.menu_content_body_edge').css('background-image', "url('https://d23t6n8q91hyck.cloudfront.net/img/myvr-torn-edge.png')");
         selectAmenityType('General');
     });
