@@ -7,7 +7,7 @@ if(tagline != null) {
 }
 
 // INSERT VIDEO TOURS WHEN AVAILABLE
-
+/*
 var videoLinks = {
     'lil-ranch-cottage': 'http://www.youtube.com/embed/eJG7i2xzhtE?rel=0',
     'robson-house': 'http://www.youtube.com/embed/g5TzvQ0R-Uw?rel=0',
@@ -34,4 +34,4 @@ if(typeof propNamespace !== "undefined") {
     iFrame.setAttribute("frameborder", "1");
     video.appendChild(iFrame);
     carousel.parentNode.insertBefore(video, carousel.nextSibling);
-}
+}*/
