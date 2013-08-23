@@ -6,13 +6,13 @@ var content = document.getElementById("content");
 
 if(typeof content !== "undefined" && content != null) {
 
-  //var mainTitle = content.firstChild.nextSibling;
+  var mainTitle = content.firstChild.nextSibling;
   
-  //var backLink = document.createElement("div");
-  //backLink.innerHTML = '<a href="http://floatingstonecasitas.myvr.com/property/">Back to all properties</a>';
+  var backLink = document.createElement("div");
+  backLink.innerHTML = '<a href="http://floatingstonecasitas.myvr.com/property/">Back to all properties</a>';
 
-  //alert(mainTitle.innerHTML);
-  //mainTitle.appendChild(backLink);
+  alert(mainTitle.innerHTML);
+  mainTitle.appendChild(backLink);
   /*var holder = mainTitle.firstChild;
 
   if (holder.nextSibling) {
