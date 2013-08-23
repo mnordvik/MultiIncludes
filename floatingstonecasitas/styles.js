@@ -11,7 +11,7 @@ if(typeof content !== "undefined" && content != null) {
   var backLink = document.createElement("div");
   backLink.style.fontSize='22px';
   backLink.style.paddingLeft='150px';
-  backLink.innerHTML = '<a href="http://floatingstonecasitas.myvr.com/property/">Back to all properties</a>';
+  backLink.innerHTML = '<a href="http://floatingstonecasitas.myvr.com/property/" style="font-size:22px;padding-left:150px">Back to all properties</a>';
 
   //alert(mainTitle.innerHTML);
   mainTitle.appendChild(backLink);
