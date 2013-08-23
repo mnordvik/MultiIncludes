@@ -1,0 +1,107 @@
+#nav a:hover,
+#nav .active a,
+.main-title h1,
+.toggle-block .opener:hover,
+#main .toggle-block .opener:hover h3,
+#main .toggle-block .opener:hover h3 span,
+.rates .heading,
+.tabset a:hover,
+.recommendation-list a:hover,
+.recommendation-list .active a,
+.recommendation-list a:hover:before,
+.toggle-block .opener:hover strong,
+.toggle-block .pagination ul a:hover,
+.toggle-block .pagination ul .active a,
+.toggle-block .pagination .btn-prev:hover,
+.toggle-block .pagination .btn-next:hover,
+.review .title,
+.review .title a,
+.search .pagination ul a:hover,
+.search .pagination ul .active a,
+.search .pagination .btn-prev:hover,
+.search .pagination .btn-next:hover,
+.results .number span,
+.results .sort a:hover,
+.results .sort .active a,
+.list li:hover .heading a,
+.btn-back:hover,
+.btn-reset:hover,
+.open-close .opener:hover,
+.popup .price span,
+.open-close .slide a,
+#header .logo-text a h1,
+.landing-text h1,
+.local-guide .map-info-box .footer .guide a,
+.local-guide .main-title .back,
+.open-close .slide a,
+.ui-datepicker td a:hover
+{
+	color: #666666;
+}
+
+.local-section .recommendation-list a:hover:before,
+.local-section .recommendation-list .active a:before,
+.recommendation-list .active a:before,
+.btn-load:hover,
+.list>li:hover:before,
+.estimate-form a.submit,
+.slider .slide-box,
+.enquire-form button,
+.select-options .item-selected a,
+input.submit.btn,
+.landing .search-header .search-container .search-lead .search-action input.submit,
+.tabset .active a,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active
+{
+	background: rgb(239,144,33);
+}
+
+.day-int a,
+.day-int.first a,
+.day-int.last a,
+.day-int.single a
+{
+  background: rgb(239,144,33) !important;
+}
+
+.light-bg-trans,
+.local-guide .recomendations .tabs .recommendation-list .list-link:hover:before
+{
+	background-color: rgb(239,144,33);
+}
+
+.list>li:hover
+{
+	border: solid rgb(239,144,33);
+}
+
+.select-area:hover,
+.select-options .drop-list,
+.enquire-form .text-field.parent-active,
+.enquire-form .parent-active input[type="tel"],
+.enquire-form .parent-active input[type="email"],
+.enquire-form .parent-active input[type="text"],
+.enquire-form .parent-active textarea,
+.search-form .text-field.parent-active,
+.search-form .parent-active input[type="text"],
+.estimate-form .text-field.parent-active,
+.estimate-form .parent-active input[type="text"]
+{
+	border:1px solid rgb(239,144,33);
+}
+
+.ui-widget-header .ui-state-highlight
+{
+  border: 1px solid rgb(239,144,33) !important;
+}
+
+.landing .search-header .search-container .search-lead
+{
+	border-top: 3px solid rgb(239,144,33);
+}
+
+.landing-text .list-small .property-small a:hover
+{
+	border-right: 3px solid rgb(239,144,33);
+}
