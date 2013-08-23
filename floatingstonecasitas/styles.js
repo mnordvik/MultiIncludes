@@ -1,2 +1,2 @@
-document.getElementById("header").style.display='hidden';
-document.getElementById("footer").style.display='hidden';
+document.getElementById("header").style.display='none';
+document.getElementById("footer").style.display='none';
