@@ -6,7 +6,7 @@ var content = document.getElementById("content");
 
 if(typeof content !== "undefined" && content != null) {
 
-  var mainTitle = content.firstChild;
+  var mainTitle = content.firstChild.nextSibling;
 
   var backLink = document.createElement("div");
   backLink.innerHTML = '<a href="http://floatingstonecasitas.myvr.com/property/">Back to all properties</a>';
