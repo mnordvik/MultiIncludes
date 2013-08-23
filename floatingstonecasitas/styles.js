@@ -9,9 +9,11 @@ if(typeof content !== "undefined" && content != null) {
   var mainTitle = content.firstChild.nextSibling;
   
   var backLink = document.createElement("div");
+  backLink.style.font-size='16px';
+  backLink.style.margin-left='50px';
   backLink.innerHTML = '<a href="http://floatingstonecasitas.myvr.com/property/">Back to all properties</a>';
 
-  alert(mainTitle.innerHTML);
+  //alert(mainTitle.innerHTML);
   mainTitle.appendChild(backLink);
   /*var holder = mainTitle.firstChild;
 
