@@ -9,8 +9,8 @@ if(typeof content !== "undefined" && content != null) {
   var mainTitle = content.firstChild.nextSibling;
   
   var backLink = document.createElement("div");
-  backLink.style.fontSize='16px';
-  backLink.style.marginLeft='50px';
+  backLink.style.fontSize='22px';
+  backLink.style.paddingLeft='150px';
   backLink.innerHTML = '<a href="http://floatingstonecasitas.myvr.com/property/">Back to all properties</a>';
 
   //alert(mainTitle.innerHTML);
