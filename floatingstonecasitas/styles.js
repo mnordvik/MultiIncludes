@@ -16,6 +16,11 @@ if(finalDirectory != 'property') {
   
   if(typeof content !== "undefined" && content != null) {
   
+    var sidebar = document.getElementById("sidebar");
+    if(typeof sidebar !== "undefined" && sidebar != null) {
+           sidebar.style.display='none';
+    }
+  
     var mainTitle = content.firstChild.nextSibling;
     
     var backLink = document.createElement("div");
