@@ -2,11 +2,6 @@ document.getElementById("header").style.display='none';
 document.getElementById("search").style.display='none';
 document.getElementById("footer").style.display='none';
 
-var sidebar = document.getElementById("sidebar");
-if(typeof sidebar !== "undefined" && sidebar != null) {
-    sidebar.style.display='none';
-}
-
 var pathArray = window.location.href.split('/');
 var finalDirectory;
 
@@ -28,6 +23,11 @@ if(finalDirectory != 'property') {
   
     mainTitle.appendChild(backLink);
   
-  }
+} else {
+    var sidebar = document.getElementById("sidebar");
+    if(typeof sidebar !== "undefined" && sidebar != null) {
+        sidebar.style.display='none';
+    }
+}
 
 }
