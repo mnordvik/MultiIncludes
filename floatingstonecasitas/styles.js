@@ -2,6 +2,11 @@ document.getElementById("header").style.display='none';
 document.getElementById("search").style.display='none';
 document.getElementById("footer").style.display='none';
 
+var sidebar = document.getElementById("sidebar");
+if(typeof sidebar !== "undefined" && sidebar != null) {
+    sidebar.style.display='none';
+}
+
 var pathArray = window.location.href.split('/');
 var finalDirectory;
 
@@ -15,11 +20,6 @@ if(finalDirectory != 'property') {
   var content = document.getElementById("content");
   
   if(typeof content !== "undefined" && content != null) {
-  
-    var sidebar = document.getElementById("sidebar");
-    if(typeof sidebar !== "undefined" && sidebar != null) {
-           sidebar.style.display='none';
-    }
   
     var mainTitle = content.firstChild.nextSibling;
     
