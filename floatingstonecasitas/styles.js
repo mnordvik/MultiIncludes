@@ -17,11 +17,18 @@ if(finalDirectory != 'property') {
   if(typeof content !== "undefined" && content != null) {
   
     var mainTitle = content.firstChild.nextSibling;
-    
     var backLink = document.createElement("div");
     backLink.innerHTML = '<a href="http://floatingstonecasitas.myvr.com/property/" style="font-size:22px;padding-left:150px">Back to all properties</a>';
-  
     mainTitle.appendChild(backLink);
+    
+    var sidebar = document.getElementById("sidebar");
+    if(typeof sidebar !== "undefined" && sidebar != null) {
+        var requestsArray = document.getElementsByClassName('requests');
+        for (var i = 0; i < requestsArray.length; ++i) {
+            var requests = requestsArray[i];  
+            requests.style.display='none';
+        }
+    }
   
 } else {
     var sidebar = document.getElementById("sidebar");
