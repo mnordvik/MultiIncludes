@@ -3,8 +3,7 @@ var theKids = tab2.childNodes;
 
 for (i=0;i<theKids.length;i++)
 {
-alert("Nodename: " + theKids[i].nodeName);
-alert("nodetype: " + theKids[i].nodeType);
+alert("Nodename: " + theKids[i].nodeName + " NodeNumber: " + i);
 }
 
 theKids[0].style.display='none';
