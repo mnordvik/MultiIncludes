@@ -3,11 +3,10 @@ var theKids = tab2.childNodes;
 
 for (i=0;i<theKids.length;i++)
 {
-alert("Nodename: " + theKids[i].nodeName + " NodeNumber: " + i);
+  if(i!=7) {
+    theKids[i].style.display='none';
+  }
+  theKids[7].style.display='inline';
 }
 
-theKids[0].style.display='none';
-theKids[1].style.display='none';
-theKids[1].checked = true;
-theKids[2].style.display='inline';
-theKids[3].style.display='none';
+//theKids[3].checked='true';
