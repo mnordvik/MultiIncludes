@@ -1,0 +1,1 @@
+document.getElementById("tab2").style.display='none';
