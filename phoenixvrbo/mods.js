@@ -2,7 +2,7 @@ var tab2 = document.getElementById("tab2");
 var theKids = tab2.childNodes;
 
 for (i=0;i<7;i++)
-  tab2.removeChild(theKids[i]);
+  theKids[i].parentNode.removeChild(theKids[i]);
 
 /*for (i=0;i<theKids.length;i++)
 {
