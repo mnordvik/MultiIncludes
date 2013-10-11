@@ -1,6 +1,6 @@
 var form = document.getElementsByName("InquiryForm");
 
-//form[1].childNodes[3].childNodes[2].innerHTML='';
+form[1].childNodes[3].childNodes[1].innerHTML='';
 
 alert(form[1].childNodes[3].childNodes[1].innerHTML);
 
