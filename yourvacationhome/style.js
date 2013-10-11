@@ -4,7 +4,7 @@ alert("# of InquiryForms = " + form.length);
 
 var specialRequests = form[1].getElementsByTagName("DIV")[3];
 
-alert("# of Div children = " + specialRequests.length);
+alert("specialRequests.className = " + specialRequests.className);
 
 specialRequests.getElementsByTagName("DIV")[1].innerHTML = '';
 
