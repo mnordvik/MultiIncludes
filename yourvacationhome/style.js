@@ -1,8 +1,8 @@
 var form = document.getElementsByName("InquiryForm");
 
-alert(form[1].childNodes[5].innerHTML);
+alert(form[1].childNodes[9].innerHTML);
 
-alert(form[1].childNodes[5].childNodes[1].innerHTML);
+alert(form[1].childNodes[9].childNodes[1].innerHTML);
 
 alert("The 4th Div = "+form[1].childNodes[3].className);
 
