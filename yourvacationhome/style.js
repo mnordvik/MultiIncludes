@@ -10,5 +10,5 @@ var requests = specialRequests.getElementsByTagName("DIV");
 
 alert("requests.length = " + requests.length);
 
-requests[1].innerHTML = '';
+requests[0].innerHTML = '';
 
