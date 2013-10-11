@@ -4,6 +4,9 @@ alert(form[1].childNodes[8].innerHTML);
 
 alert(form[1].childNodes[8].childNodes[1].innerHTML);
 
+var moreInfo = document.getElementsById("more_info_tab");
+moreInfo.innerHTML = '<span>HOME</span><br/>"VIDEO"';
+
 //alert("The 4th Div = "+form[1].childNodes[3].className);
 
 //form[1].childNodes[3].childNodes[1].innerHTML='';
