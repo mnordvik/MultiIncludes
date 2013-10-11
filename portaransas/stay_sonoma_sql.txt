@@ -1,0 +1,24 @@
+SELECT email, firstname, lastname, state, phone, date_created FROM client
+WHERE id IN
+(
+    SELECT id
+    FROM client c
+    INNER JOIN
+    (
+        SELECT email
+        FROM client
+        GROUP BY email
+        HAVING COUNT(*) = 1 
+    ) C
+    ON c.email=C.email
+ )
+
+Full bookings in Jon's format.
+
+SELECT p.name, r.name, b.date, b.duration, b.guests, b.booking_total, b.date_created
+FROM booking b, property p, room r
+WHERE b.property_id = p.id AND b.room_id = r.id;
+
+SELECT p.name, r.name, b.date, b.duration, b.guests, b.booking_total, LEFT(b.date_created, 8), b.booking_type
+FROM booking b, property p, room r
+WHERE b.property_id = p.id AND b.room_id = r.id AND b.booking_type <> "O" and b.date_canceled IS NULL;
