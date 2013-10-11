@@ -4,6 +4,8 @@ var form = document.getElementsByName("InquiryForm");
 
 alert(form[1].childNodes[3].childNodes[2].innerHTML);
 
+alert("The 4th Div = "+form[1].childNodes[3].className);
+
 /*alert("# of InquiryForms = " + form.length);
 
 var formSections = form[1].getElementsByTagName("DIV");
