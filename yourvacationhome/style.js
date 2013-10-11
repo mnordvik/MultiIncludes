@@ -1,7 +1,11 @@
 var form = document.getElementsByName("InquiryForm");
 
-var specialRequests = form[0].getElementsByTagName("div")[3];
+alert("# of InquiryForms = " + form.length);
 
-specialRequests.getElementsByTagName("div")[1].innerHTML = '';
+var specialRequests = form[0].getElementsByTagName("DIV")[3];
 
-alert(specialRequests.getElementsByTagName("div")[0]);
+alert("# of Div children = " + specialRequests.length);
+
+specialRequests.getElementsByTagName("DIV")[1].innerHTML = '';
+
+alert(specialRequests.getElementsByTagName("DIV")[0]);
