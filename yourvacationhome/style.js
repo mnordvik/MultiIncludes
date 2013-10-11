@@ -6,6 +6,9 @@ var specialRequests = form[1].getElementsByTagName("DIV")[3];
 
 alert("specialRequests.className = " + specialRequests.className);
 
-specialRequests.getElementsByTagName("DIV")[1].innerHTML = '';
+var requests = specialRequests.getElementsByTagName("DIV");
 
-alert(specialRequests.getElementsByTagName("DIV")[0]);
+alert("requests.length = " + requests.length);
+
+requests[1].innerHTML = '';
+
