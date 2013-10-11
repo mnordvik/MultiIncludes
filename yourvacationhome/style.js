@@ -1,8 +1,8 @@
 var form = document.getElementsByName("InquiryForm");
 
-alert(form[1].childNodes[8].innerHTML);
+alert(form[1].childNodes[7].innerHTML);
 
-alert(form[1].childNodes[8].childNodes[1].innerHTML);
+alert(form[1].childNodes[7].childNodes[1].innerHTML);
 
 var moreInfo = document.getElementsById("more_info_tab");
 moreInfo.innerHTML = '<span>HOME</span><br/>"VIDEO"';
