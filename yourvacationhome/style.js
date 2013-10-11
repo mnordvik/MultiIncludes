@@ -10,5 +10,5 @@ var requests = specialRequests.getElementsByTagName("DIV");
 
 alert("requests.length = " + requests.length);
 
-requests[0].innerHTML = '';
+requests[0].innerHTML = 'THIS IS WHERE YOU ARE NOW :(';
 
