@@ -1,0 +1,11 @@
+/* Font only */
+.ng-scope, .estimate-form input[type=text], .table-1 th:first-child, .table-2 strong, .selectboxit-container *, .search-form input[type=text], .enquire-form input[type=text], .enquire-form input[type=tel], .enquire-form input[type=email] 
+{font-family: Copperplate, "Copperplate Gothic Light", fantasy;}
+
+/* Font and italic */
+.main-title address
+{font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-style: italic; }
+
+/* Font and bold */
+#nav, #main h2, .estimate-form a.submit, .estimate-form .heading, .info-block dt, #main h3, #main h4, .rates .heading, .table-1 .title, .table-1 td, .enquire-form button, .enquire-form label, .enquire-form .title, .landing .search-header .search-container .search-lead .search-action input.submit, .landing-text .list-small .property-small a .text .heading, #nav .active a, .tabset .active a, .rates .calendar-holder .calendar .fc-header h2
+{font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-weight: bold;}
