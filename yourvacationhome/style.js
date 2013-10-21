@@ -32,5 +32,5 @@ if(finalDirectory == 'home_info') {*/
   //alert(menuContent[0].innerHTML);
   menuContent[0].style.minHeight = "440px";
   var amenitiesLink = document.getElementsByClassName("a.amenities-link-lead");
-  menuContent[0].style.marginBottom = "200px";
+  amenitiesLink[0].style.height = "200px";
 //}
