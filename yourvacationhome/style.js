@@ -31,6 +31,6 @@ if(finalDirectory == 'home_info') {*/
   var menuContent = document.getElementsByClassName("menu_content_content");
   //alert(menuContent[0].innerHTML);
   menuContent[0].style.minHeight = "440px";
-  var amenitiesLink = document.getElementsByClassName("amenities-link-lead");
+  var amenitiesLink = document.getElementsByClassName("ameneties-link-lead");
   amenitiesLink[0].style.height = "200px";
 //}
