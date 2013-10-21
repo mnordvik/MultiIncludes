@@ -14,7 +14,20 @@ footerThirdSection.innerHTML = footerThirdSection.innerHTML +
 '</a></div>';
 
 //alert("The 4th Div = "+form[1].childNodes[3].className);
-
 //form[1].childNodes[3].childNodes[1].innerHTML='';
-
 //form[0].childNodes[3].childNodes[1].innerHTML='';
+
+// Make Home Info longer
+var pathArray = window.location.href.split('/');
+var finalDirectory;
+
+if(pathArray[pathArray.length - 1] != '')
+    finalDirectory = pathArray[pathArray.length - 1];
+else
+    finalDirectory = pathArray[pathArray.length - 2];
+
+if(finalDirectory == 'home_info') {
+  var homeInfo = document.getElementById("home_info");
+  var menuContent = document.getElementsByClassName("menu_content_body");
+  menuContent[0].style.margin-bottom = "100px";
+}
