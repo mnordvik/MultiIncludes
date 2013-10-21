@@ -29,5 +29,5 @@ else
 if(finalDirectory == 'home_info') {*/
   var homeInfo = document.getElementById("home_info");
   var menuContent = document.getElementsByClassName("menu_content_body");
-  menuContent[0].style.margin-bottom = "100px";
+  menuContent[0].style.marginBottom = "100px";
 //}
