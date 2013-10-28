@@ -9,7 +9,7 @@ moreInfo.innerHTML = 'HOME<br/><span>VIDEO</span>';
 // Add Superior Vacation Home logo in footer
 var footerFirstSection = document.getElementById("footer_link_section_one");
 footerFirstSection.innerHTML = footerFirstSection.innerHTML + 
-'<div><a href="http://superiorvacationhome.com/">' +
+'<div style="float:left;padding-top:10px;"><a href="http://superiorvacationhome.com/">' +
 '<img src="https://s3.amazonaws.com/jomumist-myvr-prod-photos/inserts/superior_vacation_home.png" width="50%" height="50%"/>' +
 '</a></div>';
 
