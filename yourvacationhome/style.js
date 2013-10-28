@@ -7,8 +7,8 @@ var moreInfo = document.getElementById("more_info_tab");
 moreInfo.innerHTML = 'HOME<br/><span>VIDEO</span>';
 
 // Add Superior Vacation Home logo in footer
-var footerThirdSection = document.getElementById("footer_link_section_three");
-footerThirdSection.innerHTML = footerThirdSection.innerHTML + 
+var footerFirstSection = document.getElementById("footer_link_section_one");
+footerFirstSection.innerHTML = footerFirstSection.innerHTML + 
 '<div style="float:right"><a href="http://superiorvacationhome.com/">' +
 '<img src="https://s3.amazonaws.com/jomumist-myvr-prod-photos/inserts/superior_vacation_home.png" width="50%" height="50%"/>' +
 '</a></div>';
@@ -20,17 +20,10 @@ footerThirdSection.innerHTML = footerThirdSection.innerHTML +
 // Make Home Info longer
 /*var pathArray = window.location.href.split('/');
 var finalDirectory;
-
 if(pathArray[pathArray.length - 1] != '')
-    finalDirectory = pathArray[pathArray.length - 1];
-else
-    finalDirectory = pathArray[pathArray.length - 2];
+    finalDirectory = pathArray[pathArray.length - 1];*/
 
-if(finalDirectory == 'home_info') {*/
-  //var homeInfo = document.getElementById("home_info");
-  //var menuContent = document.getElementsByClassName("menu_content_content");
-  //alert(menuContent[0].innerHTML);
-  //menuContent[0].style.minHeight = "440px";
-  var amenitiesLink = document.getElementsByClassName("ameneties-link-lead");
-  amenitiesLink[0].style.height = "125px";
-//}
+// Add space under the Amenities link to insure that the text under the image of Home Info is within white area
+var amenitiesLink = document.getElementsByClassName("ameneties-link-lead");
+amenitiesLink[0].style.height = "125px";
+
