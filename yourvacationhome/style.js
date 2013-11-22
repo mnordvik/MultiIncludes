@@ -1,7 +1,7 @@
 // Remove smoking/pets from inquiry form
 var form = document.getElementsByName("InquiryForm");
+alert(form[1].childNodes[7].innerHTML);
 form[1].childNodes[7].childNodes[3].innerHTML = '';
-alert(form[1].childNodes[7].childNodes[3].innerHTML);
 
 // Change More Info to Home Video in the topnav
 var moreInfo = document.getElementById("more_info_tab");
