@@ -12,7 +12,7 @@ TourLinks = function() {
   }
 }
 
-var slug = window.location.split('.')[0].split('//')[1];
+var slug = window.location.href.split('.')[0].split('//')[1];
 var tourLinks = new TourLinks();
 var link = tourLinks.getLink(slug);
 
