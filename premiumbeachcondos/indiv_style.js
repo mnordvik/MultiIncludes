@@ -1,4 +1,7 @@
-$( "#selected_photo_container" ).append("HERE I AM");
+if(!window.console){ window.console = {log: function(){} }; }
+ 
+console.log("#selected_photo_container = " + $( #selected_photo_container ).html());
+//$( "#selected_photo_container" ).append("HERE I AM");
 
 TourLinks = function() {
   /* Private data. */
