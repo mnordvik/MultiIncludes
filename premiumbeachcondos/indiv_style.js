@@ -18,13 +18,16 @@ TourLinks = function() {
 }
 
 var slug = window.location.href.split('.')[0].split('//')[1];
+console.log("slug = " + slug);
 var tourLinks = new TourLinks();
 var link = tourLinks.getLink(slug);
+
+console.log("link = " + link);
 
 if(link != "none")
   $( "#selected_photo_container" )
     .append( "<div style=\"text-align:center\"><a href=\""
-    + tourLinks.getLink
+    + link
     + "\" target=\"_blank\">Take the Virtual Tour</a></div>"
     );
 
