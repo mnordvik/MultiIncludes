@@ -1,6 +1,6 @@
 if(!window.console){ window.console = {log: function(){} }; }
- 
-console.log("#selected_photo_container = " + $( #selected_photo_container ).html());
+var containerHTML = $( #selected_photo_container ).html();
+console.log("#selected_photo_container = " + containerHTML);
 //$( "#selected_photo_container" ).append("HERE I AM");
 
 TourLinks = function() {
