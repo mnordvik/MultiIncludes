@@ -1,6 +1,6 @@
 if(!window.console){ window.console = {log: function(){} }; }
-var containerHTML = $( "#selected_photo_container" ).html();
-console.log("#selected_photo_container = " + containerHTML);
+//var containerHTML = $( "#selected_photo_container" ).html();
+//console.log("#selected_photo_container = " + containerHTML);
 //$( "#selected_photo_container" ).append("HERE I AM");
 
 TourLinks = function() {
@@ -18,16 +18,16 @@ TourLinks = function() {
 }
 
 var slug = window.location.href.split('.')[0].split('//')[1];
-console.log("slug = " + slug);
+//console.log("slug = " + slug);
 var tourLinks = new TourLinks();
 var link = tourLinks.getLink(slug);
 
-console.log("link = " + link);
+//console.log("link = " + link);
 
 if(link != "none")
   $( "#selected_photo_container" )
-    .append( "<div style=\"text-align:center\"><a href=\""
+    .append( "<div style=\"text-align:center\"><br/><h2><a href=\""
     + link
-    + "\" target=\"_blank\">Take the Virtual Tour</a></div>"
+    + "\" target=\"_blank\">Take the Virtual Tour</a></h2></div>"
     );
 
