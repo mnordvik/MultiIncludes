@@ -1,3 +1,5 @@
+$( "#selected_photo_container" ).append("HERE I AM");
+
 TourLinks = function() {
   /* Private data. */
   var data = {
