@@ -20,5 +20,6 @@ if(link != "none")
   $( "#selected_photo_container" )
     .append( "<div style=\"text-align:center\"><a href=\""
     + tourLinks.getLink
+    + "\" target=\"_blank\">Take the Virtual Tour</a></div>"
     );
 
