@@ -6,8 +6,8 @@ TourLinks = function() {
   /* Private data. */
   var data = {
     "calypso-5th-floor-east-tower": "http://tours.ecrep.co/public/vtour/display/163131?a=1",
-    "calypso605east": "http://tours.ecrep.co/public/vtour/display/163139?a=1",
-    "calypso1007e": "http://tours.ecrep.co/public/vtour/display/163137?a=1"
+    "calypso-6th-floor-east-tower": "http://tours.ecrep.co/public/vtour/display/163139?a=1",
+    "calypso-10th-floor-east-tower": "http://tours.ecrep.co/public/vtour/display/163137?a=1"
   }
   /* Get a link for a tour by property slug, or notify that there is none */
   this.getLink = function(slug) {
