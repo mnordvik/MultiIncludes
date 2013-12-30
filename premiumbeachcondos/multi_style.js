@@ -21,9 +21,9 @@ var link;
 var tourLinks = new TourLinks();
 
 if(pathArray[pathArray.length - 1] != '')
-    link = tourLinks.get([pathArray[pathArray.length - 1]]);
+    link = tourLinks.getLink([pathArray[pathArray.length - 1]]);
 else
-    link = tourLinks.get([pathArray[pathArray.length - 2]]);
+    link = tourLinks.getLink([pathArray[pathArray.length - 2]]);
 
 
 console.log("link = " + link);
