@@ -5,7 +5,7 @@ console.log("#property-carousel = " + containerHTML);
 TourLinks = function() {
   /* Private data. */
   var data = {
-    "calypso508east": "http://tours.ecrep.co/public/vtour/display/163131?a=1",
+    "calypso-5th-floor-east-tower": "http://tours.ecrep.co/public/vtour/display/163131?a=1",
     "calypso605east": "http://tours.ecrep.co/public/vtour/display/163139?a=1",
     "calypso1007e": "http://tours.ecrep.co/public/vtour/display/163137?a=1"
   }
@@ -17,14 +17,17 @@ TourLinks = function() {
 }
 
 var pathArray = window.location.href.split('/');
-var link;
+var slug;
 var tourLinks = new TourLinks();
 
 if(pathArray[pathArray.length - 1] != '')
-    link = tourLinks.getLink([pathArray[pathArray.length - 1]]);
+    slug = pathArray[pathArray.length - 1];
 else
-    link = tourLinks.getLink([pathArray[pathArray.length - 2]]);
+    slug = pathArray[pathArray.length - 2];
 
+console.log("slug = " + slug);
+
+var link = tourLinks.getLink(slug);
 
 console.log("link = " + link);
 
