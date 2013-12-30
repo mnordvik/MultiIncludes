@@ -1,5 +1,5 @@
 if(!window.console){ window.console = {log: function(){} }; }
-var containerHTML = $( "#selected_photo_container" ).html();
+var containerHTML = $( "#property-carousel" ).html();
 console.log("#property-carousel = " + containerHTML);
 
 TourLinks = function() {
@@ -17,17 +17,14 @@ TourLinks = function() {
 }
 
 var pathArray = window.location.href.split('/');
-var slug;
+var link;
+var tourLinks = new TourLinks();
 
 if(pathArray[pathArray.length - 1] != '')
-    slug = videoLinks[pathArray[pathArray.length - 1]];
+    link = tourLinks.get([pathArray[pathArray.length - 1]]);
 else
-    slug = videoLinks[pathArray[pathArray.length - 2]];
+    link = tourLinks.get([pathArray[pathArray.length - 2]]);
 
-
-//console.log("slug = " + slug);
-var tourLinks = new TourLinks();
-var link = tourLinks.getLink(slug);
 
 console.log("link = " + link);
 
