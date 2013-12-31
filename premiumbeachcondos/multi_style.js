@@ -1,6 +1,6 @@
 if(!window.console){ window.console = {log: function(){} }; }
-var containerHTML = $( "#property-carousel" ).html();
-console.log("#property-carousel = " + containerHTML);
+//var containerHTML = $( "#property-carousel" ).html();
+//console.log("#property-carousel = " + containerHTML);
 
 TourLinks = function() {
   /* Private data. */
@@ -25,11 +25,11 @@ if(pathArray[pathArray.length - 1] != '')
 else
     slug = pathArray[pathArray.length - 2];
 
-console.log("slug = " + slug);
+//console.log("slug = " + slug);
 
 var link = tourLinks.getLink(slug);
 
-console.log("link = " + link);
+//console.log("link = " + link);
 
 if(link != "none")
   $( "#property-carousel" )
