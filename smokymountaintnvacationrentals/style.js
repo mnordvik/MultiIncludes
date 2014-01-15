@@ -1,4 +1,4 @@
-$("div#text-holder").each(function() {
+$("div.text-holder").each(function() {
     
     var $this = $(this);
     console.log($this.html());
