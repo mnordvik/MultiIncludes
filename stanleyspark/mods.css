@@ -4,7 +4,7 @@
    text-align: center;
 }
 
-#photos .carousel .item img, {
+#photos .carousel .item img {
    max-height: 500px;
    width: auto;
    left: 20%;
