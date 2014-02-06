@@ -4,9 +4,12 @@
    text-align: center;
 }
 
-#photos .carousel .item img {
+.carousel-inner {
    max-height: 500px;
    width: auto;
+}
+
+#photos .carousel .item img {
    left: 20%;
    right: 20%;
 }
