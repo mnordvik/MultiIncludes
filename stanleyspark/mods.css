@@ -12,6 +12,7 @@
 .carousel-inner>.active {
    left: auto;
    right: auto;
+   position: static;
    text-align: center;
 }
 
