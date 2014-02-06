@@ -7,13 +7,13 @@
 #photos .carousel .item img, .carousel-inner {
    max-height: 500px;
    width: auto;
+   left: 20%;
+   right: 20%;
 }
 
 .carousel-inner>.active {
    left: auto;
    right: auto;
-   position: static;
-   text-align: center;
 }
 
 .carousel-caption {
