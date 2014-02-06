@@ -12,6 +12,8 @@
 #photos .carousel .item img {
    left: 20%;
    right: 20%;
+   max-height: 500px;
+   width: auto;
 }
 
 .carousel-inner>.active {
