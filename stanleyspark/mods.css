@@ -1,5 +1,6 @@
 .carousel {
    max-height: 500px;
+   width: auto;
 }
 
 #photos .carousel .item img, .carousel-inner {
