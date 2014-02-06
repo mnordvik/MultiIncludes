@@ -1,9 +1,9 @@
-#photos {
-   max-height: 300px;   
-}
-
 .carousel {
    max-height: 500px;   
+}
+
+#photos .carousel .item img {
+   width: auto;
 }
 
 
