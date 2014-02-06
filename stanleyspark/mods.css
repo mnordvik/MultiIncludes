@@ -9,4 +9,9 @@
    width: auto;
 }
 
+.carousel-inner>.active {
+   left: 100%;
+   right: 1005;
+   text-align: center;
+}
 
