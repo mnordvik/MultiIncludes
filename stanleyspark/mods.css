@@ -6,14 +6,4 @@
    max-height: 500px;   
 }
 
-#photos .carousel .item img {
-   max-height: 500px;
-   max-width: 100%;
-   
-}
 
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-   max-height: 500px;
-   max-width: 100%;
-   
-}
