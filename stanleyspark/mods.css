@@ -16,12 +16,17 @@
    width: auto;
 }
 
-.carousel-inner>.active img {
+.carousel-inner>.active {
    left: auto;
    right: auto;
 }
 
+.carousel-inner>.active img {
+   left: 20%;
+   right: 20%;
+}
+
 .carousel-caption {
-   color: #fdfdfd; 
+   color: #dddddd; 
    /*background:rgba(0,0,0,0.3);*/
 }
