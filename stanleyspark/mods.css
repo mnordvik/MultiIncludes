@@ -1,5 +1,4 @@
 .carousel {
-   max-height: 500px;
    width: auto;
    text-align: center;
 }
@@ -15,8 +14,8 @@
 }
 
 .carousel-inner>.active img {
-   left: 20%;
-   right: 20%;
+   left: auto;
+   right: auto;
 }
 
 .carousel-caption {
