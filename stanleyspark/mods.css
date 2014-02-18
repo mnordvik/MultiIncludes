@@ -6,16 +6,17 @@
 .carousel-inner {
    max-height: 500px;
    width: auto;
+   
 }
 
 #photos .carousel .item img {
-   max-height: 500px;
-   width: auto;
+   text-align: center;
 }
 
 .carousel-inner>.active img {
    left: auto;
-   right: auto;
+   right: auto
+   display: inline-block;
 }
 
 .carousel-caption {
