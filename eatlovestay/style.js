@@ -7,7 +7,7 @@ console.log(html);
 console.log(document.documentElement.innerHTML.indexOf('href=\"/blog'));
 //console.log();
 
-$(.footer-links li).html().replace('href=\"/blog', 'href=\"http://blog.eatlovestay.com');
+$(".footer-links li").html().replace('href=\"/blog', 'href=\"http://blog.eatlovestay.com');
 
 if(document.documentElement.innerHTML.indexOf("sample_background.png") != 0)
   $(".page-banner").css("background-image", "url(\"https://s3.amazonaws.com/jomumist-myvr-prod-photos/inserts/hollywood_hills.jpg\")");
