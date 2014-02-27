@@ -7,7 +7,7 @@ console.log(html);
 console.log(document.documentElement.innerHTML.indexOf('href=\"/blog'));
 //console.log();
 
-$(".footer-links li")..each(function() {
+$(".footer-links li").each(function() {
   $( this ).html().replace('href=\"/blog', 'href=\"http://blog.eatlovestay.com');
 });
 
