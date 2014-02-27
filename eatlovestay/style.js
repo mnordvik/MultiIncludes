@@ -7,6 +7,7 @@ $(".top-level-nav").append("<div class=\"social-icons\"><a href=\"http://www.lin
 
 $(".footer-links li").each(function() {
   console.log($( this ).html());
+  console.log($( this ).html().indexOf('href=\"/blog'));
   $( this ).html().replace('href=\"/blog', 'href=\"http://blog.eatlovestay.com');
 });
 
