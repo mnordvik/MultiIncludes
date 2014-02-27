@@ -7,11 +7,12 @@ $(".top-level-nav").append("<div class=\"social-icons\"><a href=\"http://www.lin
 
 $(".footer-links li").each(function() {
   var anchor = $(this).html();
-  console.log(anchor);
+  console.log("OLD " + anchor);
   console.log(anchor.indexOf('href=\"/blog'));
   anchor.replace('href=\"/blog', 'href=\"http://blog.eatlovestay.com');
+  console.log("NEW " + anchor);
   $(this).html(anchor);
 });
 
-if(document.documentElement.innerHTML.indexOf("sample_background.png") != 0)
+if(document.documentElement.innerHTML.indexOf("sample_background.png") > -1)
   $(".page-banner").css("background-image", "url(\"https://s3.amazonaws.com/jomumist-myvr-prod-photos/inserts/hollywood_hills.jpg\")");
