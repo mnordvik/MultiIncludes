@@ -6,9 +6,11 @@ $(".top-level-nav").append("<div class=\"social-icons\"><a href=\"http://www.lin
 //console.log();
 
 $(".footer-links li").each(function() {
-  console.log($( this ).html());
-  console.log($( this ).html().indexOf('href=\"/blog'));
-  $( this ).html().replace('href=\"/blog', 'href=\"http://blog.eatlovestay.com');
+  var anchor = $(this).html();
+  console.log(anchor);
+  console.log(anchor.indexOf('href=\"/blog'));
+  anchor.replace('href=\"/blog', 'href=\"http://blog.eatlovestay.com');
+  $(this).html(anchor);
 });
 
 if(document.documentElement.innerHTML.indexOf("sample_background.png") != 0)
