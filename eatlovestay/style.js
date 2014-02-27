@@ -4,10 +4,7 @@ $(".top-level-nav").append("<div class=\"social-icons\"><a href=\"http://www.lin
 
 $(".footer-links li").each(function() {
   var anchor = $(this).html();
-  console.log("OLD " + anchor);
-  console.log(anchor.indexOf('href=\"/blog'));
   var newAnchor = anchor.replace('href=\"/blog', 'href=\"http://blog.eatlovestay.com');
-  console.log("NEW " + newAnchor);
   $(this).html(newAnchor);
 });
 
