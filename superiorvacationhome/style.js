@@ -1,2 +1,2 @@
-//var stockTo = 'List Your Home';
-//$('ul li:contains(' + stockTo + ')').remove();
+var stockTo = 'List Your Home';
+$('ul li:contains(' + stockTo + ')').remove();
