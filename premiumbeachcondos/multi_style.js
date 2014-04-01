@@ -1,3 +1,7 @@
+$(".top-level-nav").append("<div class=\"social-icons\"><a href=\"https://www.facebook.com/PremiumBeachCondos\"><img src=\"https://s3.amazonaws.com/jomumist-myvr-prod-photos/inserts/eatlovestay/facebook.png\" border=\"0\" /></a></div>");
+//$(".top-level-nav").append("<div class=\"social-icons\"><a href=\"https://twitter.com/eatlovestayus\"><img src=\"https://s3.amazonaws.com/jomumist-myvr-prod-photos/inserts/eatlovestay/twitter.png\" border=\"0\" /></a></div>");
+$(".top-level-nav").append("<div class=\"social-icons\"><a href=\"https://www.linkedin.com/pub/jenny-oest/1/3b4/23a\"><img src=\"https://s3.amazonaws.com/jomumist-myvr-prod-photos/inserts/eatlovestay/linkedin.png\" border=\"0\" /></a></div>");
+
 if(!window.console){ window.console = {log: function(){} }; }
 //var containerHTML = $( "#property-carousel" ).html();
 //console.log("#property-carousel = " + containerHTML);
