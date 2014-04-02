@@ -4,5 +4,5 @@ $(".jumbotron > .container").prepend("<div><img src=\"https://s3.amazonaws.com/j
 */
 
 $(".navbar").append("<div class=\"social-icons container\"><a href=\"\"><img src=\"https://s3.amazonaws.com/jomumist-myvr-prod-photos/inserts/eatlovestay/facebook.png\" border=\"0\" /></a></div>");
-$(".jumbotron > .container").before("<div class=\"social-icons\"><a href=\"\"><img src=\"https://s3.amazonaws.com/jomumist-myvr-prod-photos/inserts/eatlovestay/twitter.png\" border=\"0\" /></a></div>");
+$(".navbar").after("<div class=\"social-icons container\"><a href=\"\"><img src=\"https://s3.amazonaws.com/jomumist-myvr-prod-photos/inserts/eatlovestay/twitter.png\" border=\"0\" /></a></div>");
 $(".jumbotron > .container").before("<div class=\"social-icons\"><a href=\"\"><img src=\"https://s3.amazonaws.com/jomumist-myvr-prod-photos/inserts/eatlovestay/linkedin.png\" border=\"0\" /></a></div>");
