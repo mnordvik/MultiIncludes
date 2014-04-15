@@ -1,7 +1,7 @@
-$(".top-level-nav").append("<div class=\"social-icons\"><a href=\"https://www.facebook.com/PremiumBeachCondos\"><i class='icon-facebook-sign'></i></a></div>");
+$(".top-level-nav").append("<div class=\"social-icons\"><a href=\"https://www.facebook.com/PremiumBeachCondos\"><i class='icon-facebook-sign social-icons'></i></a></div>");
 //$(".top-level-nav").append("<div class=\"social-icons\"><a href=\"https://twitter.com/eatlovestayus\"><img src=\"https://s3.amazonaws.com/jomumist-myvr-prod-photos/inserts/eatlovestay/twitter.png\" border=\"0\" /></a></div>");
-$(".top-level-nav").append("<div class=\"social-icons\"><a href=\"https://www.linkedin.com/pub/jenny-oest/1/3b4/23a\"><i class='icon-google-plus'></i></a></div>");
-$(".top-level-nav").append("<div class=\"social-icons\"><a href=\"https://www.linkedin.com/pub/jenny-oest/1/3b4/23a\"><i class='icon-pinterest'></i></a></div>");
+$(".top-level-nav").append("<div class=\"social-icons\"><a href=\"https://plus.google.com/u/0/+Premiumbeachcondos_vacation_rental_magazine\"><i class='icon-google-plus'></i></a></div>");
+$(".top-level-nav").append("<div class=\"social-icons\"><a href=\"http://www.pinterest.com/jennyoest/panama-city-beach-vacation-rentals-insiders-guide/\"><i class='icon-pinterest'></i></a></div>");
 $(".top-level-nav").append("<div class=\"social-icons\"><a href=\"https://www.linkedin.com/pub/jenny-oest/1/3b4/23a\"><i class='icon-linkedin'></i></a></div>");
 
 
