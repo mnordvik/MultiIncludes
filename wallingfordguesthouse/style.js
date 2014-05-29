@@ -1,1 +1,2 @@
-$(" #top_social .fr ").append("  <a class='top_menu_component' onClick='window.location.href =\"http://Blog.LosAngelesHolidayRental.com\"; return false;'><div>OUR<br/><span>BLOG</span></div></a> ");
+
+$("#top_social").append("<div class=\"social-icons\"><a href=\"https://www.facebook.com/PremiumBeachCondos\"><i class='icon-facebook-sign'></i></a></div>");
