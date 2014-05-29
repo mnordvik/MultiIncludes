@@ -1,5 +1,5 @@
 .social-icons {
-   float: right;
+   display:block;
    margin: 5 0 0 0px;
    font-size: 25px;
    text-decoration: none;
