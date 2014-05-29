@@ -1,1 +1,1 @@
-$(".top-level-nav").append("<div class=\"social-icons\"><a href=\"http://instagram.com/bayislandstar\"><i class='icon-instagram'></i></a></div>");
+$(".top-level-nav").append("<a class=\"social-icons\" href=\"http://instagram.com/bayislandstar\"><i class='icon-instagram'></i></a>");
