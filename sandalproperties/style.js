@@ -1,3 +1,3 @@
 $(" #tab2 > input ").hide();
-$(" #tab2 ").replace("Community Provided","");
-$(" #tab2 ").replace("Owner Provided","");
+$(" #tab2 ").html().replace("Community Provided","");
+$(" #tab2 ").html().replace("Owner Provided","");
