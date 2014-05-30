@@ -1,6 +1,7 @@
 $(" #calendar_wrapper ").remove();
 $(" #estimate_wrapper ").remove();
 
-var calendarTab = $(" #calendar_tab ").innerHTML.replace("Calendar","Fees");
+console.log($(" #calendar_tab ").html());
+var calendarTab = $(" #calendar_tab ").html().replace("Calendar","Fees");
 console.log(calendarTab);
 $(" #calendar_tab ").innerHTML = calendarTab;
