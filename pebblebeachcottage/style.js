@@ -5,5 +5,3 @@ console.log($(" #calendar_tab ").html());
 var calendarTab = $(" #calendar_tab ").html().replace("Calendar","Fees");
 console.log(calendarTab);
 $(" #calendar_tab ").html(calendarTab);
-
-$(" #calendar_tab ").remove();
