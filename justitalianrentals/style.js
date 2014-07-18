@@ -1,5 +1,6 @@
 console.log("INNNNN");
 var pathElements = location.pathname.split("/");
+console.log(pathElements);
 if (pathElements.length > 1 && pathElements[0] == "property") {
   console.log(pathElements[0]);
   console.log(document.domain + "/" + pathElements[1] + "/");
