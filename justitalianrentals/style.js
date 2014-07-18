@@ -1,3 +1,4 @@
+console.write("INNNNN");
 var pathElements = location.pathname.split("/");
 if (pathElements.length > 1 && pathElements[0] == "property") {
   console.write(pathElements[0]);
