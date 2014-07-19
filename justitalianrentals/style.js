@@ -1,7 +1,7 @@
 console.log("INNNNN");
 var pathElements = location.pathname.split("/");
 console.log(pathElements);
-if (pathElements.length > 1 && $.inArray("property", pathElements) {
+if (pathElements.length > 1 && pathElements.indexOf('property')!==-1) {
   console.log(pathElements[1]);
   console.log(document.domain + "/" + pathElements[pathElements.indexOf('property')+1] + "/");
   $('.inquiry-container').innerHTML(
