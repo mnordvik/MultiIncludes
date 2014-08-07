@@ -1,3 +1,3 @@
-$(' td:contains('Tax').next('td').html(
-  td:contains('Tax').next('td').innerHTML.replace('.000','');
+$(' td:contains('Tax') ').next('td').html(
+  td:contains('Tax').next('td').innerHTML.replace('.000','')
 );
