@@ -1,7 +1,6 @@
 debugger;
 
-console.log($(' strong:contains(".000") ').innerHTML);
+var trimmed = $(' strong:contains(".000") ').html().replace(".000","");
+console.log(trimmed);
 
-$(' strong:contains(".000") ').html(
-  $(' strong:contains(".000") ').innerHTML.replace('.000','')
-);
+$(' strong:contains(".000") ').html(trimmed);
