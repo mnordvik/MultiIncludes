@@ -1,9 +1,7 @@
 debugger;
 
-console.log($(' td:has(strong:contains("Tax")) ').innerHTML);
+console.log($(' strong:contains(".000") ').innerHTML);
 
-console.log($(' td:contains("Tax") ').next('td').innerHTML);
-
-$(' td:contains("Tax") ').next('td').html(
-  $(' td:contains("Tax") ').next('td').innerHTML.replace('.000','')
+$(' strong:contains(".000") ').html(
+  $(' strong:contains(".000") ').innerHTML.replace('.000','')
 );
