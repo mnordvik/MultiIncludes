@@ -1,6 +1,6 @@
 debugger;
 
-console.log($(' td:has(strong:contains("Tax")) '));
+console.log($(' td:has(strong:contains("Tax")) ').innerHTML);
 
 console.log($(' td:contains("Tax") ').next('td').innerHTML);
 
